@@ -41,19 +41,7 @@ a { color: inherit; text-decoration: none; }
   height: 74px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-.brand {
-  width: 42px;
-  height: 42px;
-  border-radius: 14px;
-  display: grid;
-  place-items: center;
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
-  border: 1px solid var(--line);
-  background: linear-gradient(135deg, rgba(105,167,255,.18), rgba(140,240,210,.10));
+  justify-content: flex-end;
 }
 
 .nav-links { display: flex; gap: 26px; }
